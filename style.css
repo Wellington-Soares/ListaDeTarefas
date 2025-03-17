@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --primary-color: #042940;
+    --seg-color: #731702;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 100px auto;
+    background: white;
+    padding: 15px 50px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p {
+    margin-top: 50px;
+}
+
+p .input-tarefa {
+    margin-right: 10px;
+    height: 30px;
+    color: var(--primary-color);
+    border-color: rgb(102, 102, 107);
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+.btn-tarefa {
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    border: solid 2px;
+    color: #042940;
+    background-color: white;
+    font-family: 'Open sans', sans-serif;
+    cursor: pointer;
+}
+
+.btn-tarefa:hover {
+    color: white;
+    background-color: var(--primary-color);
+    transition: 1s;
+    border: solid 2px;
+    border-color: var(--primary-color);
+}
+
+ul li{
+    margin-top: 10px;
+    width: 300px;
+    list-style: circle;
+    font-size: 18px;
+}
+
+.apagar{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border: solid 2px;
+    background: white;
+    float: right;
+    margin-right: 20px;
+    color: var(--seg-color);
+    cursor: pointer;
+    border-color: var(--seg-color);
+}
+
+.apagar:hover {
+    background: var(--seg-color);
+    color: white;
+    transition: 1s
+}
